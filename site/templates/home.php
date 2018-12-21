@@ -15,24 +15,24 @@
     <title>Fabrex - Business Multipurpose and Corporate Template</title>
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="img/logos/favicon.png">
-    <link rel="apple-touch-icon" href="img/logos/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/logos/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/logos/apple-touch-icon-114x114.png">
+    <link rel="shortcut icon" href="<?=$config->urls->templates;?>img/logos/favicon.png">
+    <link rel="apple-touch-icon" href="<?=$config->urls->templates;?>img/logos/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?=$config->urls->templates;?>img/logos/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?=$config->urls->templates;?>img/logos/apple-touch-icon-114x114.png">
 
     <!-- plugins -->
-    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="<?=$config->urls->templates;?>css/plugins.css" />
 
     <!-- revolution slider css -->
-    <link rel="stylesheet" href="css/rev_slider/settings.css">
-    <link rel="stylesheet" href="css/rev_slider/layers.css">
-    <link rel="stylesheet" href="css/rev_slider/navigation.css">
+    <link rel="stylesheet" href="<?=$config->urls->templates;?>css/rev_slider/settings.css">
+    <link rel="stylesheet" href="<?=$config->urls->templates;?>css/rev_slider/layers.css">
+    <link rel="stylesheet" href="<?=$config->urls->templates;?>css/rev_slider/navigation.css">
 
     <!-- search css -->
-    <link rel="stylesheet" href="search/search.css" />
+    <link rel="stylesheet" href="<?=$config->urls->templates;?>search/search.css" />
 
     <!-- custom css -->
-    <link href="css/styles-4.css" rel="stylesheet" id="colors">
+    <link href="<?=$config->urls->templates;?>css/styles-4.css" rel="stylesheet" id="colors">
 
 </head>
 
@@ -100,7 +100,7 @@
 
                                     <div class="navbar-header navbar-header-custom">
                                         <!-- Start Logo -->
-                                        <a href="index.html" class="navbar-brand logo4"><img id="logo" src="img/logos/logo-4.png" alt="logo"></a>
+                                        <a href="index.html" class="navbar-brand logo4"><img id="logo" src="<?=$config->urls->templates;?>img/logos/logo-4.png" alt="logo"></a>
                                         <!-- End Logo -->
                                     </div>
 
@@ -361,17 +361,17 @@
                                                 </a>
                                                 <ul class="dropdown-menu cart-list">
                                                     <li>
-                                                        <a href="#" class="photo"><img src="img/shop/cart-thumb01.jpg" class="cart-thumb" alt="" /></a>
+                                                        <a href="#" class="photo"><img src="<?=$config->urls->templates;?>img/shop/cart-thumb01.jpg" class="cart-thumb" alt="" /></a>
                                                         <h6><a href="#">Delica omtantur </a></h6>
                                                         <p>2x - <span class="price">$99.99</span></p>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="photo"><img src="img/shop/cart-thumb02.jpg" class="cart-thumb" alt="" /></a>
+                                                        <a href="#" class="photo"><img src="<?=$config->urls->templates;?>img/shop/cart-thumb02.jpg" class="cart-thumb" alt="" /></a>
                                                         <h6><a href="#">Omnes ocurreret</a></h6>
                                                         <p>1x - <span class="price">$33.33</span></p>
                                                     </li>
                                                     <li>
-                                                        <a href="#" class="photo"><img src="img/shop/cart-thumb03.jpg" class="cart-thumb" alt="" /></a>
+                                                        <a href="#" class="photo"><img src="<?=$config->urls->templates;?>img/shop/cart-thumb03.jpg" class="cart-thumb" alt="" /></a>
                                                         <h6><a href="#">Agam facilisis</a></h6>
                                                         <p>2x - <span class="price">$99.99</span></p>
                                                     </li>
@@ -397,7 +397,7 @@
         <!-- end header section -->
 
         <!-- Start banner Section -->
-        <section class="parallax screen-height" data-overlay-dark="7" data-background="img/slider/slide24.jpg">
+        <section class="parallax screen-height" data-overlay-dark="7" data-background="<?=$config->urls->templates;?>img/slider/slide24.jpg">
             <div class="absolute-middle-center z-index-1 width-100">
                 <div class="container">
                     <div class="row">
@@ -458,7 +458,7 @@
                 <div class="row margin-50px-bottom sm-margin-30px-bottom">
 
                     <div class="col-lg-6 col-md-12 sm-margin-30px-bottom">
-                        <img src="img/content/feature-02.jpg" alt="" class="border-radius-5 box-shadow-primary" />
+                        <img src="<?=$config->urls->templates;?>img/content/feature-02.jpg" alt="" class="border-radius-5 box-shadow-primary" />
                     </div>
 
                     <div class="col-lg-6 col-md-12">
@@ -492,7 +492,7 @@
 
                     </div>
                     <div class="col-lg-6 col-md-12 order-1 order-lg-2 sm-margin-30px-bottom">
-                        <img src="img/content/feature-03.jpg" alt="" class="border-radius-5 box-shadow-primary" />
+                        <img src="<?=$config->urls->templates;?>img/content/feature-03.jpg" alt="" class="border-radius-5 box-shadow-primary" />
                     </div>
                 </div>
             </div>
@@ -547,7 +547,7 @@
                     <div class="col-lg-4 col-md-12 sm-margin-20px-bottom">
                         <div class="service-simple">
                             <div class="overflow-hidden">
-                                <img alt="img" src="img/content/services/s-1.jpg" />
+                                <img alt="img" src="<?=$config->urls->templates;?>img/content/services/s-1.jpg" />
                             </div>
                             <div class="service-simple-inner">
                                 <h4>Business Growth</h4>
@@ -560,7 +560,7 @@
                     <div class="col-lg-4 col-md-12 sm-margin-20px-bottom">
                         <div class="service-simple">
                             <div class="overflow-hidden">
-                                <img alt="img" src="img/content/services/s-2.jpg" />
+                                <img alt="img" src="<?=$config->urls->templates;?>img/content/services/s-2.jpg" />
                             </div>
                             <div class="service-simple-inner">
                                 <h4>Financial Analysis</h4>
@@ -573,7 +573,7 @@
                     <div class="col-lg-4 col-md-12">
                         <div class="service-simple">
                             <div class="overflow-hidden">
-                                <img alt="img" src="img/content/services/s-3.jpg" />
+                                <img alt="img" src="<?=$config->urls->templates;?>img/content/services/s-3.jpg" />
                             </div>
                             <div class="service-simple-inner">
                                 <h4>Success Report</h4>
@@ -656,7 +656,7 @@
                     <div class="col-lg-3 col-md-6 col-xs-12 sm-margin-20px-bottom text-center">
                         <div class="team-style3">
                             <div class="team-member-img">
-                                <img class="img-responsive" src="img/team/teammember-01.jpg" alt="">
+                                <img class="img-responsive" src="<?=$config->urls->templates;?>img/team/teammember-01.jpg" alt="">
                                 <div class="team-description">
                                     <div class="team-description-wrapper">
 
@@ -681,7 +681,7 @@
                     <div class="col-lg-3 col-md-6 col-xs-12 sm-margin-20px-bottom text-center">
                         <div class="team-style3">
                             <div class="team-member-img">
-                                <img class="img-responsive" src="img/team/teammember-02.jpg" alt="">
+                                <img class="img-responsive" src="<?=$config->urls->templates;?>img/team/teammember-02.jpg" alt="">
                                 <div class="team-description">
                                     <div class="team-description-wrapper">
 
@@ -706,7 +706,7 @@
                     <div class="col-lg-3 col-md-6 col-xs-12 xs-margin-20px-bottom text-center">
                         <div class="team-style3">
                             <div class="team-member-img">
-                                <img class="img-responsive" src="img/team/teammember-03.jpg" alt="">
+                                <img class="img-responsive" src="<?=$config->urls->templates;?>img/team/teammember-03.jpg" alt="">
                                 <div class="team-description">
                                     <div class="team-description-wrapper">
 
@@ -731,7 +731,7 @@
                     <div class="col-lg-3 col-md-6 col-xs-12 text-center">
                         <div class="team-style3">
                             <div class="team-member-img">
-                                <img class="img-responsive" src="img/team/teammember-04.jpg" alt="">
+                                <img class="img-responsive" src="<?=$config->urls->templates;?>img/team/teammember-04.jpg" alt="">
                                 <div class="team-description">
                                     <div class="team-description-wrapper">
 
@@ -848,12 +848,12 @@
         <div class="section-clients bg-light-gray">
             <div class="container">
                 <div class="owl-carousel owl-theme clients" id="clients">
-                    <div class="item"><img alt="partner-image" src="img/partners/client-01.png"></div>
-                    <div class="item"><img alt="partner-image" src="img/partners/client-02.png"></div>
-                    <div class="item"><img alt="partner-image" src="img/partners/client-03.png"></div>
-                    <div class="item"><img alt="partner-image" src="img/partners/client-04.png"></div>
-                    <div class="item"><img alt="partner-image" src="img/partners/client-05.png"></div>
-                    <div class="item"><img alt="partner-image" src="img/partners/client-06.png"></div>
+                    <div class="item"><img alt="partner-image" src="<?=$config->urls->templates;?>img/partners/client-01.png"></div>
+                    <div class="item"><img alt="partner-image" src="<?=$config->urls->templates;?>img/partners/client-02.png"></div>
+                    <div class="item"><img alt="partner-image" src="<?=$config->urls->templates;?>img/partners/client-03.png"></div>
+                    <div class="item"><img alt="partner-image" src="<?=$config->urls->templates;?>img/partners/client-04.png"></div>
+                    <div class="item"><img alt="partner-image" src="<?=$config->urls->templates;?>img/partners/client-05.png"></div>
+                    <div class="item"><img alt="partner-image" src="<?=$config->urls->templates;?>img/partners/client-06.png"></div>
                 </div>
             </div>
         </div>
@@ -866,7 +866,7 @@
 
                     <div class="col-lg-4 col-md-6 sm-margin-30px-bottom">
 
-                        <img alt="footer-logo" src="img/logos/logo-footer-dark.png">
+                        <img alt="footer-logo" src="<?=$config->urls->templates;?>img/logos/logo-footer-dark.png">
                         <p class="margin-20px-top text-default-color">Nemo enim enim voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequ magni dolores eos qui ratione voluptatem.</p>
                         <div class="margin-25px-top footer-social-icons2">
                             <ul>
@@ -954,60 +954,60 @@
     <!-- all js include start -->
 
     <!-- jQuery -->
-    <script src="js/jquery.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/jquery.min.js"></script>
 
     <!-- modernizr js -->
-    <script src="js/modernizr.js"></script>
+    <script src="<?=$config->urls->templates;?>js/modernizr.js"></script>
 
     <!-- bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/bootstrap.min.js"></script>
 
     <!-- navigation -->
-    <script src="js/nav-menu.js"></script>
+    <script src="<?=$config->urls->templates;?>js/nav-menu.js"></script>
 
     <!-- serch -->
-    <script src="search/search.js"></script>
+    <script src="<?=$config->urls->templates;?>search/search.js"></script>
 
     <!-- owl carousel -->
-    <script src="js/owl.carousel.js"></script>
+    <script src="<?=$config->urls->templates;?>js/owl.carousel.js"></script>
 
     <!-- jquery.counterup.min -->
-    <script src="js/jquery.counterup.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/jquery.counterup.min.js"></script>
 
     <!-- stellar js -->
-    <script src="js/jquery.stellar.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/jquery.stellar.min.js"></script>
 
     <!-- waypoints js -->
-    <script src="js/waypoints.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/waypoints.min.js"></script>
 
     <!-- tab js -->
-    <script src="js/tabs.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/tabs.min.js"></script>
 
     <!-- jquery.magnific-popup js -->
-    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/jquery.magnific-popup.min.js"></script>
 
     <!-- isotope.pkgd.min js -->
-    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/isotope.pkgd.min.js"></script>
 
     <!-- revolution slider js files start -->
-    <script src="js/rev_slider/jquery.themepunch.tools.min.js"></script>
-    <script src="js/rev_slider/jquery.themepunch.revolution.min.js"></script>
-    <script src="js/rev_slider/extensions/revolution.extension.actions.min.js"></script>
-    <script src="js/rev_slider/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="js/rev_slider/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="js/rev_slider/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="js/rev_slider/extensions/revolution.extension.migration.min.js"></script>
-    <script src="js/rev_slider/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="js/rev_slider/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="js/rev_slider/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="js/rev_slider/extensions/revolution.extension.video.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/rev_slider/jquery.themepunch.tools.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/rev_slider/jquery.themepunch.revolution.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/rev_slider/extensions/revolution.extension.actions.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/rev_slider/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/rev_slider/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/rev_slider/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/rev_slider/extensions/revolution.extension.migration.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/rev_slider/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/rev_slider/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/rev_slider/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="<?=$config->urls->templates;?>js/rev_slider/extensions/revolution.extension.video.min.js"></script>
     <!-- revolution slider js files end -->
 
     <!-- map js -->
-    <script src="js/map.js"></script>
+    <script src="<?=$config->urls->templates;?>js/map.js"></script>
 
     <!-- custom scripts -->
-    <script src="js/main.js"></script>
+    <script src="<?=$config->urls->templates;?>js/main.js"></script>
 
     <!-- contact form scripts -->
     <script src="js/mailform/jquery.form.min.js"></script>
