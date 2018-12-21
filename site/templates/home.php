@@ -100,7 +100,7 @@
 
                                     <div class="navbar-header navbar-header-custom">
                                         <!-- Start Logo -->
-                                        <a href="index.html" class="navbar-brand logo4"><img id="logo" src="<?=$config->urls->templates;?>img/logos/logo-4.png" alt="logo"></a>
+                                        <a href="index.html" class="navbar-brand logo4"><img id="logo" src="<?=$config->urls->templates;?>img/logos/Logo-StudioPhi.png" alt="logo"></a>
                                         <!-- End Logo -->
                                     </div>
 
@@ -108,246 +108,8 @@
 
                                     <!-- Menu Area -->
                                     <ul class="navbar-nav ml-auto" id="nav" style="display: none;">
-                                        <li><a href="javascript:void(0)">Home</a>
-                                            <ul>
-                                                <li><a href="home-1.html">Home 01</a></li>
-                                                <li><a href="home-2.html">Home 02</a></li>
-                                                <li><a href="home-3.html">Home 03</a></li>
-                                                <li><a href="home-4.html">Home 04</a></li>
-                                                <li><a href="home-5.html">Home 05</a></li>
-                                                <li><a href="home-6.html">Home 06</a></li>
-                                                <li><a href="home-7.html">Home 07</a></li>
-                                                <li><a href="home-8.html">Home 08</a></li>
-                                                <li><a href="home-9.html">Home 09</a></li>
-                                                <li><a href="home-10.html">Home 10</a></li>
-                                                <li><a href="home-11.html">Home 11</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="javascript:void(0)">Pages</a>
-                                            <ul>
-                                                <li><a href="javascript:void(0)">About Us</a>
-                                                    <ul>
-                                                        <li><a href="about.html">About Us 01</a></li>
-                                                        <li><a href="about-2.html">About Us 02</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="javascript:void(0)">Our Team</a>
-                                                    <ul>
-                                                        <li><a href="team.html">Our Team 01</a></li>
-                                                        <li><a href="team-2.html">Our Team 02</a></li>
-                                                        <li><a href="team-3.html">Our Team 03</a></li>
-                                                        <li><a href="team-4.html">Our Team 04</a></li>
-                                                        <li><a href="team-5.html">Our Team 05</a></li>
-                                                        <li><a href="team-6.html">Our Team 06</a></li>
-                                                        <li><a href="team-single.html">Team Single</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="javascript:void(0)">Services</a>
-                                                    <ul>
-                                                        <li><a href="services.html">Services 01</a></li>
-                                                        <li><a href="services-2.html">Services 02</a></li>
-                                                        <li><a href="services-3.html">Services 03</a></li>
-                                                        <li><a href="service-detail.html">Service Detail</a></li>
-                                                        <li><a href="cases.html">Cases</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="javascript:void(0)">Contact Us</a>
-                                                    <ul>
-                                                        <li><a href="contact.html">Contact Us 01</a></li>
-                                                        <li><a href="contact-2.html">Contact Us 02</a></li>
-                                                        <li><a href="contact-3.html">Contact Us 03</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="javascript:void(0)">FAQ</a>
-                                                    <ul>
-                                                        <li><a href="faq.html">FAQ 01</a></li>
-                                                        <li><a href="faq-2.html">FAQ 02</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="404.html">Error 404</a></li>
-                                                <li><a href="under-construction.html">Under Construction</a></li>
-                                                <li><a href="maintenance.html">Maintenance</a></li>
-                                                <li><a href="comingsoon.html">Comingsoon</a></li>
-                                                <li><a href="login.html">Login</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="javascript:void(0)">Features</a>
-                                            <ul>
-                                                <li><a href="javascript:void(0)">Headers</a>
-                                                    <ul>
-                                                        <li><a href="header-1.html">Header Style 1</a></li>
-                                                        <li><a href="header-2.html">Header Style 2</a></li>
-                                                        <li><a href="header-3.html">Header Style 3</a></li>
-                                                        <li><a href="header-4.html">Header Style 4</a></li>
-                                                        <li><a href="header-5.html">Header Style 5</a></li>
-                                                        <li><a href="header-6.html">Header Style 6</a></li>
-                                                        <li><a href="header-7.html">Header Style 7</a></li>
-                                                        <li><a href="header-8.html">Header Style 8</a></li>
-                                                        <li><a href="header-9.html">Header Style 9</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="javascript:void(0)">Footers</a>
-                                                    <ul>
-                                                        <li><a href="footer-1.html">Footer Style 1</a></li>
-                                                        <li><a href="footer-2.html">Footer Style 2</a></li>
-                                                        <li><a href="footer-3.html">Footer Style 3</a></li>
-                                                        <li><a href="footer-4.html">Footer Style 4</a></li>
-                                                        <li><a href="footer-5.html">Footer Style 5</a></li>
-                                                        <li><a href="footer-6.html">Footer Style 6</a></li>
-                                                        <li><a href="footer-7.html">Footer Style 7</a></li>
-                                                        <li><a href="footer-8.html">Footer Style 8</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="javascript:void(0)">Page titles</a>
-                                                    <ul>
-                                                        <li><a href="page-title-1.html">Page Title 1</a></li>
-                                                        <li><a href="page-title-2.html">Page Title 2</a></li>
-                                                        <li><a href="page-title-3.html">Page Title 3</a></li>
-                                                        <li><a href="page-title-4.html">Page Title 4</a></li>
-                                                        <li><a href="page-title-5.html">Page Title 5</a></li>
-                                                        <li><a href="page-title-6.html">Page Title 6</a></li>
-                                                        <li><a href="page-title-7.html">Page Title 7</a></li>
-                                                        <li><a href="page-title-8.html">Page Title 8</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="javascript:void(0)">Revolution Sliders</a>
-                                                    <ul>
-                                                        <li><a href="rs-slider1.html">Revolution Slider 1</a></li>
-                                                        <li><a href="rs-slider2.html">Revolution Slider 2</a></li>
-                                                        <li><a href="rs-slider3.html">Revolution Slider 3</a></li>
-                                                        <li><a href="rs-slider4.html">Revolution Slider 4</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="javascript:void(0)">Owl Sliders</a>
-                                                    <ul>
-                                                        <li><a href="owl-slider1.html">Owl Slider 1</a></li>
-                                                        <li><a href="owl-slider2.html">Owl Slider 2</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="video-banner.html">Video Banner</a></li>
-                                                <li><a href="parallax-banner.html">Parallax Banner</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="javascript:void(0)">Portfolio</a>
-                                            <ul class="row megamenu">
-                                                <li class="col-lg-3 col-sm-12">
-                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size13 text-uppercase sub-title">Full Width</span>
-                                                    <ul>
-                                                        <li><a href="portfolio-four-columns.html">Portfolio 4 Columns</a></li>
-                                                        <li><a href="portfolio-three-columns.html">Portfolio 3 Columns</a></li>
-                                                        <li><a href="portfolio-two-columns.html">Portfolio 2 Columns</a></li>
-                                                        <li><a href="portfolio-with-icon-four-columns.html">Portfolio with icon 4 Columns</a></li>
-                                                        <li><a href="portfolio-with-icon-three-columns.html">Portfolio with icon 3 Columns</a></li>
-                                                        <li><a href="portfolio-with-icon-two-columns.html">Portfolio with icon 2 Columns</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="col-lg-3 col-sm-12">
-                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size13 text-uppercase sub-title">Boxed Layout</span>
-                                                    <ul>
-                                                        <li><a href="portfolio-boxed-four-columns.html">Portfolio 4 Columns</a></li>
-                                                        <li><a href="portfolio-boxed-three-columns.html">Portfolio 3 Columns</a></li>
-                                                        <li><a href="portfolio-boxed-two-columns.html">Portfolio 2 Columns</a></li>
-                                                        <li><a href="portfolio-boxed-with-icon-four-columns.html">Portfolio with icon 4 Columns</a></li>
-                                                        <li><a href="portfolio-boxed-with-icon-three-columns.html">Portfolio with icon 3 Columns</a></li>
-                                                        <li><a href="portfolio-boxed-with-icon-two-columns.html">Portfolio with icon 2 Columns</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="col-lg-3 col-sm-12">
-                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size13 text-uppercase sub-title">Gallery Layout</span>
-                                                    <ul>
-                                                        <li><a href="projects-masonry-style-1.html">Masonry Style 01</a></li>
-                                                        <li><a href="projects-masonry-style-2.html">Masonry Style 02</a></li>
-                                                        <li><a href="projects-masonry-style-3.html">Masonry Style 03</a></li>
-                                                        <li><a href="projects-masonry-style-4.html">Masonry Style 04</a></li>
-                                                        <li><a href="image-gallery-style1.html">Image Gallery Style 01</a></li>
-                                                        <li><a href="image-gallery-style2.html">Image Gallery Style 02</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="col-lg-3 col-sm-12">
-                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size13 text-uppercase sub-title">Single Project</span>
-                                                    <ul>
-                                                        <li><a href="project-detail.html">Projects Detail 01</a></li>
-                                                        <li><a href="project-detail-2.html">Projects Detail 02</a></li>
-                                                        <li><a href="project-detail-3.html">Projects Detail 03</a></li>
-                                                        <li><a href="project-detail-4.html">Projects Detail 04</a></li>
-
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="javascript:void(0)">Blog</a>
-                                            <ul>
-                                                <li><a href="blog-grid.html">Blog Grid</a></li>
-                                                <li><a href="blog-grid-classic.html">Blog Grid Classic</a></li>
-                                                <li><a href="blog-grid-sidebar.html">Blog Grid Sidebar</a></li>
-                                                <li><a href="blog-list.html">Blog List</a></li>
-                                                <li><a href="blog-list-sidebar.html">Blog List Right Sidebar</a></li>
-                                                <li><a href="blog-left-sidebar.html">Blog List Left Sidebar</a></li>
-                                                <li><a href="blog-full-width.html">Blog Full Width</a></li>
-                                                <li><a href="blog-post.html">Blog Post</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="javascript:void(0)">Shop</a>
-                                            <ul>
-                                                <li><a href="shop-product-grid.html">Product Grid</a></li>
-                                                <li><a href="shop-product-list.html">Product List</a></li>
-                                                <li><a href="shop-product-full-three-coulmn.html">Product Three Coulmns</a></li>
-                                                <li><a href="shop-product-full-four-coulmn.html">Product Four Coulmns</a></li>
-                                                <li><a href="shop-product-detail.html">Product Detail</a></li>
-                                                <li><a href="shop-cart.html">Shop Cart</a></li>
-                                                <li><a href="shop-checkout.html">Shop Checkout</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="javascript:void(0)">Elements</a>
-                                            <ul class="row megamenu">
-                                                <li class="col-lg-3 col-sm-12">
-                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size13 text-uppercase sub-title">Elements 01</span>
-                                                    <ul>
-                                                        <li><a href="accordions.html">Accordions</a></li>
-                                                        <li><a href="action-boxes.html">Action Boxes</a></li>
-                                                        <li><a href="alerts.html">Alerts</a></li>
-                                                        <li><a href="blockquote.html">Blockquote</a></li>
-                                                        <li><a href="blog-content.html">Blog Content</a></li>
-                                                        <li><a href="bootstrap-grid.html">Bootstrap Grid</a></li>
-                                                        <li><a href="count-down.html">Count Down</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="col-lg-3 col-sm-12">
-                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size13 text-uppercase sub-title">Elements 02</span>
-                                                    <ul>
-                                                        <li><a href="countups.html">Countups</a></li>
-                                                        <li><a href="dropcaps.html">Dropcaps</a></li>
-                                                        <li><a href="feature-boxes.html">Feature Boxes</a></li>
-                                                        <li><a href="feature-boxes-fancy.html">Feature Boxes Fancy</a></li>
-                                                        <li><a href="forms.html">Forms</a></li>
-                                                        <li><a href="google-map.html">Google Map</a></li>
-                                                        <li><a href="lightbox.html">Lightbox</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="col-lg-3 col-sm-12">
-                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size13 text-uppercase sub-title">Elements 03</span>
-                                                    <ul>
-                                                        <li><a href="liststyles.html">List Styles</a></li>
-                                                        <li><a href="pagetitles.html">Page titles</a></li>
-                                                        <li><a href="pricing-lists.html">Pricing Lists</a></li>
-                                                        <li><a href="progress-bars.html">Progress Bars</a></li>
-                                                        <li><a href="responsive-videos.html">Responsive Videos</a></li>
-                                                        <li><a href="social-icons.html">Social Icons</a></li>
-                                                        <li><a href="subscribe.html">Subscribe</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="col-lg-3 col-sm-12">
-                                                    <span class="margin-10px-bottom display-block sm-no-margin sm-padding-10px-tb sm-padding-30px-lr font-size13 text-uppercase sub-title">Elements 04</span>
-                                                    <ul>
-                                                        <li><a href="table.html">Table</a></li>
-                                                        <li><a href="tabs.html">Tabs</a></li>
-                                                        <li><a href="testmonials.html">Testmonials</a></li>
-                                                        <li><a href="testmonials-2.html">Testmonials 2</a></li>
-                                                        <li><a href="typography.html">Typography</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="javascript:void(0)">Home</a></li>
+                                        <li><a href="javascript:void(0)">Pages</a></li>
                                     </ul>
                                     <!-- End Menu Area -->
 
@@ -417,34 +179,19 @@
         <!-- start we work section -->
         <section>
             <div class="container">
-                <div class="section-heading"><span>How We Work</span>
-                    <h3>Make Successful Business</h3>
-                    <p class="width-55 sm-width-75 xs-width-95">Business consulting excepteur sint occaecat cupidatat consulting non proident, sunt in culpa qui officia deserunt laborum Market.</p>
+                <div class="section-heading">
+                  <?php $Sez = $pages->get("name=aree-di-attivita");?>
+                    <h3><?=$Sez->title;?></h3><span><?=$Sez->SezioneSpan;?></span>
+                    <p class="width-55 sm-width-75 xs-width-95"><?=$Sez->SezioneDescrizione;?></p>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-12 sm-margin-20px-bottom">
+                      <?php foreach($Sez->children() as $Ser): ;?>
                         <div class="feature-box-01">
-                            <i class="icon-hotairballoon font-size36 margin-20px-bottom"></i>
-                            <h4 class="font-size18 margin-10px-bottom">Market Analysis</h4>
-                            <p class="font-size15 line-height-24">We are leading international Business consulting all trouble with the law since the the day what might be right.</p>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 sm-margin-20px-bottom">
-                        <div class="feature-box-01">
-                            <i class="icon-tools font-size36  margin-20px-bottom"></i>
-                            <h4 class="font-size18 margin-10px-bottom">Business Development</h4>
-                            <p class="font-size15 line-height-24">We are leading international Business consulting all trouble with the law since the the day what might be right.</p>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12">
-                        <div class="feature-box-01">
-                            <i class=" icon-bargraph font-size36 margin-20px-bottom"></i>
-                            <h4 class="font-size18 margin-10px-bottom">Financial Planing</h4>
-                            <p class="font-size15 line-height-24">We are leading international Business consulting all trouble with the law since the the day what might be right.</p>
-
-                        </div>
+                            <i class="icon-<?=$Sez->ServizioIcona;?> font-size36 margin-20px-bottom"></i>
+                            <h4 class="font-size18 margin-10px-bottom"><?=$Sez->title;?></h4>
+                            <p class="font-size15 line-height-24"><?=$Sez->ServizioDescrizione;?></p></div>
+                      <?php endforeach;?>
                     </div>
 
                 </div>
@@ -866,7 +613,7 @@
 
                     <div class="col-lg-4 col-md-6 sm-margin-30px-bottom">
 
-                        <img alt="footer-logo" src="<?=$config->urls->templates;?>img/logos/logo-footer-dark.png">
+                        <img alt="footer-logo" src="<?=$config->urls->templates;?>img/logos/Logo-StudioPhi.png">
                         <p class="margin-20px-top text-default-color">Nemo enim enim voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequ magni dolores eos qui ratione voluptatem.</p>
                         <div class="margin-25px-top footer-social-icons2">
                             <ul>
