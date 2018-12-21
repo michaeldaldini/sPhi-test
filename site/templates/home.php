@@ -188,9 +188,9 @@
                     <div class="col-lg-4 col-md-12 sm-margin-20px-bottom">
                       <?php foreach($Sez->children() as $Ser): ;?>
                         <div class="feature-box-01">
-                            <i class="icon-<?=$Sez->ServizioIcona;?> font-size36 margin-20px-bottom"></i>
-                            <h4 class="font-size18 margin-10px-bottom"><?=$Sez->title;?></h4>
-                            <p class="font-size15 line-height-24"><?=$Sez->ServizioDescrizione;?></p></div>
+                            <i class="icon-<?=$Ser->ServizioIcona;?> font-size36 margin-20px-bottom"></i>
+                            <h4 class="font-size18 margin-10px-bottom"><?=$Ser->title;?></h4>
+                            <p class="font-size15 line-height-24"><?=$Ser->ServizioDescrizione;?></p></div>
                       <?php endforeach;?>
                     </div>
 
